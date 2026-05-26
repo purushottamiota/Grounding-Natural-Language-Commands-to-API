@@ -1,6 +1,6 @@
-# NLP to API (Calendar)
+# NLP-to-API Router
 
-This project trains a sequence-to-sequence model to translate natural language commands into structured JSON payloads for a Calendar API. It demonstrates how to fine-tune a small language model to act as an interface between users and backend services.
+This project is a generalized framework that uses a sequence-to-sequence model to translate unstructured natural language commands into structured JSON payloads for arbitrary APIs. To demonstrate the capability, it currently includes a Proof-of-Concept (PoC) tuned specifically for a Calendar API. It demonstrates how to fine-tune a small language model locally to act as a privacy-preserving interface between users and backend services.
 
 The codebase is featuring a FastAPI backend, a Streamlit frontend, Pydantic data validation, and Docker support.
 
