@@ -1,0 +1,5 @@
+--- Benchmark Results ---
+Total Samples: 250
+Average Latency: 2.2530 seconds/request
+Throughput:      0.44 requests/second
+Parse Success:   98.4% (Generated valid JSON)

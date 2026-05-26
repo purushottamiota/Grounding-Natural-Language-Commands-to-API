@@ -1,0 +1,5 @@
+.vscode/
+.__pycache__/
+.sample-output/
+../cpp_coded/
+*.pyc

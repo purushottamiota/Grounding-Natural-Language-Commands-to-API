@@ -1,0 +1,1002 @@
+[
+    {
+        "command": "Make sure Alice is in the quick chat",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "I want to cancel the interview",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Do I have any meetings next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Make sure Carol is in the 1:1",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Delete my brainstorm",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Book a retrospective next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Delete my 1:1",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Do I have any meetings next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Book a demo at 4:30pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Invite Alice to the demo",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Move the brainstorm to on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Create a interview at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "What does my schedule look like next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Reschedule the demo to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Cancel the 1:1",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Add Carol to the demo",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Reschedule the sync to on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Remind me to call John tomorrow at 9am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Invite Alice to the interview",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Add Carol to the 1:1",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Cancel the brainstorm",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Update the 1:1 to be at next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Invite Carol to the interview",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Create a demo at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Make sure David is in the quick chat",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Do I have any meetings today at noon?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Move the review to at midnight",
+        "expected_action": "update"
+    },
+    {
+        "command": "Schedule a 1:1 next Monday at 10am",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Make sure Bob is in the review",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Delete my 1:1",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Schedule a retrospective at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Make sure David is in the interview",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to finish the report today at noon",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Don't let me forget to buy groceries at midnight",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Reschedule the sync to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Cancel the planning session",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Move the review to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Create a standup next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "What does my schedule look like on Thursday?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Remove the brainstorm from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Book a standup next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "What does my schedule look like next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Move the review to on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Reschedule the brainstorm to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Schedule a quick chat next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "I want to cancel the planning session",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Do I have any meetings today at noon?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Set up a review for for 2 hours on Thursday",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Do I have any meetings tomorrow at 9am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Move the 1:1 to on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Schedule a brainstorm at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Book a quick chat at 4:30pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Remind me to email the client at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Schedule a 1:1 at 4:30pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "I want to cancel the retrospective",
+        "expected_action": "delete"
+    },
+    {
+        "command": "I want to cancel the demo",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Add Carol to the 1:1",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Remind me to buy groceries next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Make sure Eve is in the 1:1",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Delete my demo",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Add Alice to the demo",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "What does my schedule look like at 4:30pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Add Bob to the planning session",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Set a reminder to email the client at midnight",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Schedule a planning session today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Move the standup to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free at midnight?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Schedule a interview at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Delete my demo",
+        "expected_action": "delete"
+    },
+    {
+        "command": "I want to cancel the 1:1",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Invite David to the review",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to finish the report at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Cancel the quick chat",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Do I have any meetings at midnight?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Delete my brainstorm",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Cancel the sync",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Do I have any meetings on Thursday?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Set a reminder to buy groceries next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Add Bob to the demo",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Remove the standup from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Book a 1:1 on Thursday",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Do I have any meetings next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Create a interview next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Remove the review from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Make sure Eve is in the standup",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Add Bob to the review",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "What does my schedule look like next Monday at 10am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Reschedule the retrospective to at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free at 4:30pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Do I have any meetings at midnight?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Schedule a retrospective on Thursday",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Reschedule the interview to at midnight",
+        "expected_action": "update"
+    },
+    {
+        "command": "Cancel the interview",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Don't let me forget to email the client at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Invite Eve to the review",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Am I free at 4:30pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "I want to cancel the retrospective",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Schedule a review today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Add Eve to the planning session",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Invite David to the 1:1",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to buy groceries tomorrow at 9am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Invite David to the retrospective",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Schedule a review today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Am I free tomorrow at 9am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Set a reminder to email the client next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Set a reminder to call John on Thursday",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "What does my schedule look like next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Set a reminder to prepare slides at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Schedule a planning session next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Remove the review from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Invite David to the retrospective",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Reschedule the interview to at midnight",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free on Thursday?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Move the planning session to at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Move the 1:1 to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Make sure Bob is in the brainstorm",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Add Eve to the retrospective",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to finish the report tomorrow at 9am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Book a brainstorm next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Cancel the retrospective",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Remove the planning session from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Do I have any meetings next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Move the 1:1 to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free today at noon?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Remind me to finish the report today at noon",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "What does my schedule look like at 4:30pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Reschedule the 1:1 to on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Don't let me forget to call John at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Remind me to email the client tomorrow at 9am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Do I have any meetings tomorrow at 9am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Remove the retrospective from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "What does my schedule look like next Monday at 10am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Update the interview to be at on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Remove the sync from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Delete my 1:1",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Book a demo tomorrow at 9am",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Am I free next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Am I free next Monday at 10am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "What does my schedule look like next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Do I have any meetings at midnight?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Don't let me forget to call John today at noon",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Make sure David is in the quick chat",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Add David to the sync",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Add Eve to the sync",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Schedule a interview on Thursday",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Make sure Bob is in the standup",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Cancel the quick chat",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Set a reminder to prepare slides on Thursday",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Do I have any meetings at midnight?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Cancel the 1:1",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Don't let me forget to email the client next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Reschedule the retrospective to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Make sure David is in the standup",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Make sure Alice is in the interview",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Reschedule the interview to at midnight",
+        "expected_action": "update"
+    },
+    {
+        "command": "Move the retrospective to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Do I have any meetings next Monday at 10am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Set a reminder to buy groceries today at noon",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Do I have any meetings next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Don't let me forget to buy groceries next Friday at 3pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Book a sync today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Reschedule the 1:1 to at midnight",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free next Friday at 3pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "I want to cancel the review",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Create a demo at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Am I free on Thursday?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Remind me to email the client at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Remind me to buy groceries today at noon",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Invite Eve to the planning session",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Remove the interview from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Reschedule the retrospective to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Remove the demo from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Create a planning session today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Cancel the review",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Update the retrospective to be at at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Reschedule the sync to tomorrow at 9am",
+        "expected_action": "update"
+    },
+    {
+        "command": "Remove the brainstorm from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Remove the quick chat from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Delete my standup",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Cancel the interview",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Remove the 1:1 from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Reschedule the demo to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Invite Bob to the 1:1",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to finish the report next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "I want to cancel the retrospective",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Create a quick chat at midnight",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Update the quick chat to be at next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Move the review to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Do I have any meetings today at noon?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Add Alice to the standup",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to prepare slides next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Don't let me forget to email the client next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Update the standup to be at at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Update the quick chat to be at at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Add Carol to the retrospective",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Add David to the standup",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Schedule a sync next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Invite Eve to the retrospective",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to finish the report next Friday at 3pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Update the standup to be at on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Move the quick chat to next Monday at 10am",
+        "expected_action": "update"
+    },
+    {
+        "command": "Make sure David is in the brainstorm",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "What does my schedule look like today at noon?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Make sure Carol is in the planning session",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Remove the planning session from my calendar",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Reschedule the demo to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Do I have any meetings at 4:30pm?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Reschedule the review to at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Set a reminder to prepare slides tomorrow at 9am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Invite Bob to the demo",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Don't let me forget to email the client next Friday at 3pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Reschedule the retrospective to at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Reschedule the standup to next Monday at 10am",
+        "expected_action": "update"
+    },
+    {
+        "command": "Move the brainstorm to tomorrow at 9am",
+        "expected_action": "update"
+    },
+    {
+        "command": "Book a planning session at 4:30pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Remind me to finish the report today at noon",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Reschedule the demo to next Monday at 10am",
+        "expected_action": "update"
+    },
+    {
+        "command": "Am I free at midnight?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Remind me to call John at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Do I have any meetings tomorrow at 9am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Make sure Carol is in the sync",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Schedule a retrospective next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Set a reminder to prepare slides next Monday at 10am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Make sure Bob is in the interview",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "What does my schedule look like on Thursday?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Move the brainstorm to at 4:30pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Set up a retrospective for for 1 hour today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Invite Alice to the sync",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Am I free on Thursday?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Invite David to the sync",
+        "expected_action": "add_attendee"
+    },
+    {
+        "command": "Move the quick chat to on Thursday",
+        "expected_action": "update"
+    },
+    {
+        "command": "Create a sync next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Set up a interview for for 90 min next Friday at 3pm",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Schedule a sync next Monday at 10am",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Move the brainstorm to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Schedule a sync tomorrow at 9am",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Remind me to prepare slides tomorrow at 9am",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Reschedule the review to today at noon",
+        "expected_action": "update"
+    },
+    {
+        "command": "Move the 1:1 to next Friday at 3pm",
+        "expected_action": "update"
+    },
+    {
+        "command": "Don't let me forget to call John next Friday at 3pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Create a interview on Thursday",
+        "expected_action": "insert"
+    },
+    {
+        "command": "I want to cancel the sync",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Schedule a 1:1 next Monday at 10am",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Don't let me forget to email the client at 4:30pm",
+        "expected_action": "reminder"
+    },
+    {
+        "command": "Book a retrospective on Thursday",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Set up a sync for for 90 min today at noon",
+        "expected_action": "insert"
+    },
+    {
+        "command": "Do I have any meetings next Monday at 10am?",
+        "expected_action": "query"
+    },
+    {
+        "command": "Delete my review",
+        "expected_action": "delete"
+    },
+    {
+        "command": "Reschedule the demo to next Friday at 3pm",
+        "expected_action": "update"
+    }
+]
