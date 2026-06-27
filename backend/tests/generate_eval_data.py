@@ -45,8 +45,12 @@ PEOPLE = ["Alice", "Bob", "Carol", "David", "Eve"]
 
 def generate_dataset(num_samples=250):
     dataset = []
+    seen_commands = set()
+    attempts = 0
+    max_attempts = num_samples * 100
     
-    for _ in range(num_samples):
+    while len(dataset) < num_samples and attempts < max_attempts:
+        attempts += 1
         action = random.choice(list(ACTIONS.keys()))
         template = random.choice(ACTIONS[action])
         
@@ -57,6 +61,11 @@ def generate_dataset(num_samples=250):
             task=random.choice(TASKS),
             person=random.choice(PEOPLE)
         )
+        
+        clean_command = command.strip().lower()
+        if clean_command in seen_commands:
+            continue
+        seen_commands.add(clean_command)
         
         dataset.append({
             "command": command,
