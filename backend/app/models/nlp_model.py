@@ -12,7 +12,12 @@ class NLPPipeline:
     def load_model(self):
         print("Loading tokenizer and base model...")
         self.tokenizer = T5TokenizerFast.from_pretrained(settings.ADAPTER_PATH)
-        base = T5ForConditionalGeneration.from_pretrained(settings.BASE_MODEL_NAME)
+        # Load in 16-bit half-precision (float16 on GPU, bfloat16 on CPU) 
+        dtype = torch.float16 if torch.cuda.is_available() else torch.bfloat16
+        base = T5ForConditionalGeneration.from_pretrained(
+            settings.BASE_MODEL_NAME,
+            torch_dtype=dtype
+        )
 
         print(f"Applying LoRA adapter from {settings.ADAPTER_PATH}...")
         self.model = PeftModel.from_pretrained(base, settings.ADAPTER_PATH)
